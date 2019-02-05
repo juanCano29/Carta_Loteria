@@ -89,7 +89,7 @@
                 android:layout_weight="1"
                 android:layout_width="0dp"
                 android:layout_height="135dp"
-                       
+                android:background="@drawable/cotorro"
                 />
 
     </LinearLayout>
@@ -104,26 +104,26 @@
             android:layout_weight="1"
             android:layout_width="0dp"
             android:layout_height="135dp"
-
+            android:background="@drawable/luna"
             />
 
     <ImageButton
         android:layout_weight="1"
         android:layout_width="0dp"
         android:layout_height="135dp"
-
+        android:background="@drawable/mundo"
         />
             <ImageButton
                 android:layout_weight="1"
                 android:layout_width="0dp"
                 android:layout_height="135dp"
-
+                android:background="@drawable/negrito"
                 />
             <ImageButton
                 android:layout_weight="1"
                 android:layout_width="0dp"
                 android:layout_height="135dp"
-
+                android:background="@drawable/nopal"
                 />
 
     </LinearLayout>
@@ -135,28 +135,30 @@
 
         <ImageButton
             android:layout_weight="1"
+            android:layout_marginBottom="5sp"
+            android:layout_marginRight="5sp"
             android:layout_width="0dp"
             android:layout_height="135dp"
-
+            android:background="@drawable/paraguas"
             />
 
     <ImageButton
         android:layout_weight="1"
         android:layout_width="0dp"
         android:layout_height="135dp"
-
+        android:background="@drawable/pez"
         />
             <ImageButton
                 android:layout_weight="1"
                 android:layout_width="0dp"
                 android:layout_height="135dp"
-
+                android:background="@drawable/soldado"
                 />
             <ImageButton
                 android:layout_weight="1"
                 android:layout_width="0dp"
                 android:layout_height="135dp"
-
+                android:background="@drawable/valiente"
                 />
 
     </LinearLayout>
