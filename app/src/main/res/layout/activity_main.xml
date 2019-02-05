@@ -8,6 +8,7 @@
 
     android:orientation="vertical"
     android:background="#fff"
+
     >
 
     <LinearLayout
@@ -18,12 +19,14 @@
 
 
         <ImageButton
+
             android:layout_height="match_parent"
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_marginBottom="5sp"
             android:layout_marginRight="5sp"
             android:background="@drawable/alacran"
+            android:id="@+id/ib1"
 
             />
 
@@ -33,6 +36,7 @@
         android:layout_height="135dp"
 
         android:background="@drawable/arana"
+        android:id="@+id/ib2"
 
 
 
@@ -43,12 +47,14 @@
                 android:layout_height="135dp"
 
                 android:background="@drawable/bandera"
+                android:id="@+id/ib3"
                 />
             <ImageButton
                 android:layout_weight="1"
                 android:layout_width="0dp"
                 android:layout_height="135dp"
                 android:background="@drawable/barril"
+                android:id="@+id/ib4"
                 />
 
     </LinearLayout>
@@ -67,6 +73,7 @@
             android:layout_marginBottom="5sp"
             android:layout_marginRight="5sp"
             android:background="@drawable/bota"
+            android:id="@+id/ib5"
             />
 
     <ImageButton
@@ -76,6 +83,7 @@
         android:layout_marginBottom="5sp"
         android:layout_marginRight="5sp"
         android:background="@drawable/calupa"
+        android:id="@+id/ib6"
         />
             <ImageButton
                 android:layout_weight="1"
@@ -84,12 +92,14 @@
                 android:layout_marginBottom="5sp"
                 android:layout_marginRight="5sp"
                 android:background="@drawable/cazo"
+                android:id="@+id/ib7"
                 />
             <ImageButton
                 android:layout_weight="1"
                 android:layout_width="0dp"
                 android:layout_height="135dp"
                 android:background="@drawable/cotorro"
+                android:id="@+id/ib8"
                 />
 
     </LinearLayout>
@@ -105,6 +115,7 @@
             android:layout_width="0dp"
             android:layout_height="135dp"
             android:background="@drawable/luna"
+            android:id="@+id/ib9"
             />
 
     <ImageButton
@@ -112,18 +123,21 @@
         android:layout_width="0dp"
         android:layout_height="135dp"
         android:background="@drawable/mundo"
+        android:id="@+id/ib10"
         />
             <ImageButton
                 android:layout_weight="1"
                 android:layout_width="0dp"
                 android:layout_height="135dp"
                 android:background="@drawable/negrito"
+                android:id="@+id/ib11"
                 />
             <ImageButton
                 android:layout_weight="1"
                 android:layout_width="0dp"
                 android:layout_height="135dp"
                 android:background="@drawable/nopal"
+                android:id="@+id/ib12"
                 />
 
     </LinearLayout>
@@ -140,6 +154,7 @@
             android:layout_width="0dp"
             android:layout_height="135dp"
             android:background="@drawable/paraguas"
+            android:id="@+id/ib13"
             />
 
     <ImageButton
@@ -147,18 +162,21 @@
         android:layout_width="0dp"
         android:layout_height="135dp"
         android:background="@drawable/pez"
+        android:id="@+id/ib14"
         />
             <ImageButton
                 android:layout_weight="1"
                 android:layout_width="0dp"
                 android:layout_height="135dp"
                 android:background="@drawable/soldado"
+                android:id="@+id/ib15"
                 />
             <ImageButton
                 android:layout_weight="1"
                 android:layout_width="0dp"
                 android:layout_height="135dp"
                 android:background="@drawable/valiente"
+                android:id="@+id/ib16"
                 />
 
     </LinearLayout>
